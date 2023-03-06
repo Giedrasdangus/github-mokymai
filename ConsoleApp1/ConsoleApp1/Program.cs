@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace ConsoleApp1
 {
@@ -14,7 +15,7 @@ namespace ConsoleApp1
             Bendradarbiai.Add( "Justas");
             Bendradarbiai.Add ("Darius");
   
-            foreach(string i in Bendradarbiai)
+            foreachfff(string i in Bendradarbiai)
             {
                 Console.WriteLine("bendradarbis {0}", i);
             }
