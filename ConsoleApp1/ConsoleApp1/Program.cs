@@ -7,15 +7,15 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-           
-            List<string> Bendradarbiai = new List<string>(4);
 
-            Bendradarbiai.Add("Andrius");
-            Bendradarbiai.Add("Edvinas");
-            Bendradarbiai.Add( "Justas");
-            Bendradarbiai.Add ("Darius");
+            string[] Bendradarbiai = new string[100];
+
+            Bendradarbiai[0] ="Andrius";
+            Bendradarbiai[1] ="Edvinas";
+            Bendradarbiai[2]= "Justas";
+            Bendradarbiai[3] = "Darius";
   
-            foreachfff(string i in Bendradarbiai)
+            foreach(string i in Bendradarbiai)
             {
                 Console.WriteLine("bendradarbis {0}", i);
             }
